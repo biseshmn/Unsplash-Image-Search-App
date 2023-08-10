@@ -1,0 +1,34 @@
+.searchInput{
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px 2px rgb(0,0,0,10%);
+
+    display: flex;
+    overflow: hidden;
+}
+
+
+.defaultButton{
+    color: white;
+    background-color: #3275ff;
+
+    transition: .3s ease-in-out;
+    cursor: pointer;
+
+    border: 0;
+
+    padding: 1rem;
+}
+.defaultButton:hover{
+    background-color: #1757d8;
+}
+
+
+.searchInput input{
+    color: #4860a0;
+
+    border: 0;
+    outline: none;
+
+    flex: 1;
+    padding: .5rem 1rem;
+}

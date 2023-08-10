@@ -1,0 +1,44 @@
+.resultDisplay {
+    height: 100%;
+    
+    flex: 1;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.resultDisplay .viewGrid {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 0.5rem;
+}
+
+
+.resultDisplay .viewGrid .card{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px 2px rgb(0,0,0,10%);
+    overflow: hidden;
+}
+
+
+.resultDisplay .viewGrid .card img{
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+
+    transition: .3s ease-in-out;
+}
+.resultDisplay .viewGrid .card:hover img{
+    filter: brightness(.8);
+    transform: scale(1.05);
+}
+
+
+
+.resultDisplay .viewMore button{
+    border-radius: .5rem;
+
+    padding: .7rem;
+}
